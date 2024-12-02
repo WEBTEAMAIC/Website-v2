@@ -1,6 +1,6 @@
 # AI Club Website
 
-Welcome to the AI Club website for VIT Bhopal! This project serves as a hub for innovators, creators, and dreamers interested in Artificial Intelligence. The website features information about our club, events, projects, and team members.
+Welcome to the AI Club's final repository! This project showcases various events, members, and resources related to the AI Club.
 
 ## Table of Contents
 
@@ -8,6 +8,8 @@ Welcome to the AI Club website for VIT Bhopal! This project serves as a hub for 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
 
 ## Features
 
@@ -28,32 +30,45 @@ This project is built using the following technologies:
 - **ESLint**: A static code analysis tool for identifying problematic patterns in JavaScript code.
 
 ## Installation
-
-To get started with the project, follow these steps:
+To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<yourusername>/website-v2.git
+   git clone https://github.com/yourusername/ai-club-final-repo.git
    ```
 
-2. Navigate into the project directory:
+2. Navigate to the project directory:
    ```bash
-   cd website-v2
+   cd ai-club-final-repo
    ```
 
-3. Install the dependencies:
+3. Install the necessary dependencies:
    ```bash
    npm install
    ```
 
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
 ## Usage
+To run the project locally, use the following command:
+```bash
+npm run dev
+```
+This will start a local development server. Open your browser and navigate to `http://localhost:3000` to view the website.
 
-- Navigate through the website to explore different sections, including the team members, events, and projects.
-- Click on team member profiles to view their details and messages.
-- Explore the events section for information on upcoming and past events.
-- Check out the projects section to see the innovative work being done by our members.
+## Folder Structure
+The project has the following structure:
+```
+.
+├── public/                # Public assets (images, data, etc.)
+├── src/                   # Source code
+│   ├── components/        # React components
+│   ├── assets/            # Images and other assets
+│   ├── App.jsx            # Main application file
+│   └── index.jsx          # Entry point
+├── README.md              # Project documentation
+├── package.json           # Project metadata and dependencies
+└── vite.config.js         # Vite configuration
+```
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
