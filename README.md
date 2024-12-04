@@ -1,6 +1,6 @@
 # AI Club Website
 
-Welcome to the AI Club's final repository! This project showcases various events, members, and resources related to the AI Club.
+Welcome to the AI Club's website repository! This project showcases various events, members, and resources related to the AI Club.
 
 ## Table of Contents
 
@@ -34,12 +34,12 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-club-final-repo.git
+   git clone https://github.com/yourusername/Website-v2.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd ai-club-final-repo
+   cd Website-v2
    ```
 
 3. Install the necessary dependencies:
