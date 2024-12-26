@@ -318,6 +318,10 @@ body {
     padding: 4px 10px;
     max-width: 90%;
   }
+  
+  .nav-bar{
+    margin-top: 35px;
+  }
 
   .zoom-controls {
     gap: 5px;
@@ -330,7 +334,7 @@ body {
   }
 
   .backButtonWrap {
-    top: 60px;
+    top: 10px;
   }
 
   .backButtonWrap h5 {
