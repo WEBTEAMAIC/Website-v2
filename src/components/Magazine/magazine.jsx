@@ -3,6 +3,7 @@ import HTMLFlipBook from "react-pageflip";
 import pdf1 from "/Magazines/Edition_1.pdf";
 import pdf2 from "/Magazines/Edition_2.pdf";
 import pdf3 from "/Magazines/AIC_Edition3.pdf";
+import pdf4 from "/Magazines/Edition_4.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "./magazine.css";
 import backBut from '../../assets/backBut.webp';
@@ -59,7 +60,7 @@ function Flipbook() {
   const [isMobile, setIsMobile] = useState(false);
   const [pageNumber, setPageNumber] = useState(1);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-  const [pdf, setPdf] = useState(pdf3);
+  const [pdf, setPdf] = useState(pdf4);
   const [scale, setScale] = useState(MIN_SCALE);
   const [isLoading, setIsLoading] = useState(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -170,6 +171,10 @@ function Flipbook() {
 
   const handleButtonClick3 = useCallback(() => {
     setPdf(pdf3);
+  }, []);
+
+  const handleButtonClick4 = useCallback(() => {
+    setPdf(pdf4);
   }, []);
 
   const handleZoomIn = useCallback(() => {
@@ -344,6 +349,16 @@ function Flipbook() {
               type="button"
             >
               Edition 3
+            </button>
+            <button 
+              className="edition" 
+              onClick={() => {
+                handleButtonClick4();
+                setIsDropdownOpen(false);
+              }} 
+              type="button"
+            >
+              Edition 4
             </button>
           </div>
         </div>
